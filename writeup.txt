@@ -1,0 +1,19 @@
+<two-one>
+A <b>probability</b> is defined as a number which quantifies the likelihood of an event occurring.
+
+Probabilities must be in the set 0 <= p <= 1, where p is a probability.
+
+A probability of 0 for an event semantically means that the event has no chance of occurring.
+
+Likewise, a probability of 1 for an event semantically means that the event is certain to occur.
+
+All decimal values in between gauge the likelihood of the event, probabilities under 0.5 being less likely to occur, and over 0.5 being more likely to occur. 
+
+Converting to percent form is simple as well:
+
+1.0 = 100%
+0.65 = 65%
+0.873 = 87.3%
+0.10 = 10%
+0.50 = 50%
+0.05 = 5%

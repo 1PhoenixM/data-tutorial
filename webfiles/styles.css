@@ -1,0 +1,67 @@
+body{
+	background: white;
+	background: -webkit-linear-gradient(top, #8C8CB2, #F0F0F5 40%); /*bottom?*/ /*put pure white div in front of this??*/ 
+	/*surround examples of sets w/ blank "markdown" divs & use courier? cite book?*/
+	background: -o-linear-gradient(top, #8C8CB2, #F0F0F5 40%); 
+	background: -moz-linear-gradient(top, #8C8CB2, #F0F0F5 40%); 
+	background: linear-gradient(to top, #8C8CB2, #F0F0F5 40%); 
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	min-height: 100%;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20pt;
+}
+
+#nav-arrow{
+	float: right;
+}
+
+.module{
+	visibility: hidden;
+	-webkit-transition: opacity 500ms; /* Safari */
+    transition: opacity 500ms;
+	opacity: 0;
+}
+
+#zero:target{
+	visibility: visible;
+	opacity: 1;
+}
+
+#menu{
+	  position: absolute;
+	  top: 0;
+	  bottom: 0;
+	  left: 0;
+	  right: 0;
+	  background: rgba(0, 0, 0, 0.7);
+	  transition: opacity 500ms;
+	  visibility: hidden;
+	  opacity: 0;
+}
+
+#menu:target{
+	visibility: visible;
+	opacity: 0.7;
+	margin: 70px auto;
+	padding: 20px;
+	width: 30%;
+	background: #fff;
+	box-shadow: 10px 10px 5px #808080;
+}
+
+button{
+	border: none;
+	background: #808080;
+	color: #fff;
+}
+
+a{
+	color: #000;
+	text-decoration: none;
+}
+
+.x{
+	color: #000;
+	float: right;
+}
